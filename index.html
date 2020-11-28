@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="../2 практика/js/slick-1.8.1/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="../2 практика/js/slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <section id="home">
+        <div class="wrapper">
+            <header class="header">
+                <div class="container">
+                    <div class="header-inner">
+                        <nav class="menu-left">
+                            <ul class="menu-left-list">
+                                <li><a href="#home" class="menu-left-list-link" onclick="slowScroll('#home')">HOME</a></li>
+                                <li><a href="#about-us" class="menu-left-list-link" onclick="slowScroll('#about-us')" >ABOUT</a></li>
+                                <li><a href="#team" class="menu-left-list-link" onclick="slowScroll('#team')">TEAM</a></li>
+                                <li><a href="#booking" class="menu-left-list-link last" onclick="slowScroll('#booking')">BOOKING</a></li>
+                            </ul>
+                        </nav>  
+                        <a class="logo-img" href="#"><img src="img/Vector.png" alt="#" ></a>
+                        <nav class="menu-right">
+                            <ul class="menu-right-list">
+                                <li><a href="#menu" class="menu-right-list-link first" onclick="slowScroll('#menu')">MENU</a></li>
+                                <li><a href="#gallerie" class="menu-right-list-link" onclick="slowScroll('#gallerie')">GALERIE</a></li>
+                                <li><a href="#event" class="menu-right-list-link" onclick="slowScroll('#event')">EVENTS</a></li>
+                                <li><a href="#contact" class="menu-right-list-link" onclick="slowScroll('#contact')">CONTACT</a></li>
+                            </ul>
+                        </nav> 
+                        <div class="header-burger">
+                            <span></span>
+                        </div> 
+                    </div>
+                </div>
+            </header> 
+            <div class="intro">
+                <div class="container">
+                    <div class="intro-inner">
+                        <div class="intro-sup-title"> RESTAURANT</div> 
+                        <div class="intro-title">hungry people</div>
+                        <button class="intro-book-btn">BOOK TABLE</button> 
+                        <button class="intro-explore-btn">EXPLORE</button>
+                        <div class="intro-links">
+                            <a href="#" class="intro-link"><img src="img/facebook.png" alt=""></a>
+                            <a href="#" class="intro-link"><img src="img/twitter.png" alt=""></a>
+                            <a href="#" class="intro-link"><img src="img/instagram.png" alt=""></a>
+                        </div>
+                        <a class="slide-down" href="#about-us"><span class="fas fa-angle-down"></a onclick="slowScroll('#about-us')" ></span>
+                    </div> 
+                </div>
+            </div> 
+        </div> 
+    </section>
+    <section  class="about-us" id="about-us" >
+        <div class="container">
+            <div class="about">
+                <div class="about-content">
+                    <div class="black-title">about us</div>  
+                    <div class="black-sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div> 
+                    <div class="black-text"> Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+                </div> 
+                <div class="right-img">
+                    <img src="img/about-img.jpg" alt="fire" >
+                </div>
+            </div> 
+        </div>
+    </section> 
+    <section id="team" class="team">
+        <div class="wrapper">
+            <div class="team-bg"></div>
+                <div class="container">
+                    <div class="team-title">OUR TEAM</div>
+                    <div class="team-container">
+                        <div class="left-img">
+                            <img src="img/chief.png" alt="">
+                        </div>
+                        <div class="team-content">
+                            <div class="white-title">MASTER CHEF</div> 
+                            <div class="white-sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+                            <div class="white-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+                        </div> 
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section id="booking" class="booking">
+        <div class="wrapper">
+            <div class="container">
+                <div class="booking-content">
+                    <div class="booking-content-left">
+                        <div class="black-title">book a table</div>  
+                        <form class="booking-forms" action="">
+                            <div class="booking-forms-content">
+                                <div class="booking-content__item">
+                                    <input type="text" class="booking-content__item-input" placeholder="Name" >
+                                </div>
+                                <div class="booking-content__item">
+                                    <input type="email" class="booking-content__item-input" placeholder="Email" >
+                                </div>
+                                <div class="booking-content__item">
+                                    <input type="tel" class="booking-content__item-input" placeholder="Phone" >
+                                </div>
+                                <div class="booking-content__item">
+                                    <input type="number" class="booking-content__item-input" placeholder="People" >
+                                </div>
+                                <div class="booking-content__item">
+                                    <input type="datetime" class="booking-content__item-input" placeholder="Date " >
+                                </div>
+                                <div class="booking-content__item">
+                                    <input type="text" class="booking-content__item-input" placeholder="Time" >
+                                </div>
+                            </div>
+                        </form>
+                        <button class="book-btn">BOOK NOW</button>
+                    </div> 
+                    <div class="right-img">
+                        <img src="img/booking.jpg" alt="fire" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="menu" class="dinner">
+            <div class="dinner-bg"></div>
+            <div class="container">
+                <div class="slider-title"> specialties</div>
+                <div class="slider">
+                    <div class="slider__item active">
+                        <div class="left-img slide">
+                            <img src="img/ice-cream.png" alt="">
+                        </div>
+                        <div class="slider-content">
+                            <div class="white-title">chocolate pancakes</div> 
+                            <div class="white-sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+                            <div class="white-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+                        </div>
+                    </div>
+                    <div class="slider__item active ">
+                        <div class="left-img">
+                            <img src="img/ice-cream.png" alt="">
+                        </div>
+                        <div class="slider-content">
+                            <div class="white-title">chocolate pancakes</div> 
+                            <div class="white-sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+                            <div class="white-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+                        </div>
+                    </div>
+                    <div class="slider__item active">
+                        <div class="left-img">
+                            <img src="img/ice-cream.png" alt="">
+                        </div>
+                        <div class="slider-content">
+                            <div class="white-title">chocolate pancakes</div> 
+                            <div class="white-sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+                            <div class="white-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="event" class="event">
+        <div class="event-container">
+            <div class="container">
+                <div class="event-title">PRIVATE EVENTS</div>
+                <div class="event-content">
+                    <div class="left-img">
+                        <img src="img/ring.jpg" alt="ring" class="">
+                        <!-- <div class="left-img-title">weddings</div> -->
+                    </div>
+                    <div class="right-img">
+                        <img src="img/salad.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="gallerie" class="events">
+            <div class="event__item">
+                <img src="img/event1.jpg" alt="">
+            </div>
+            <div class="event__item">
+                <img src="img/event2.jpg" alt="">
+            </div>
+            <div class="event__item">
+                <img src="img/event3.png" alt="">
+            </div>
+            <div class="event__item">
+                <img src="img/event4.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="black-title">CONTACT</div>
+                <div class="black-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis <br> at velit maximus, molestie est a, tempor magna.</div>
+            </div>
+                <form action="" class="contact-forms" >
+                    <div class="contact-input">
+                        <input type="text" class="contact-input name" placeholder="Name">
+                    </div>
+                    <div class="contact-input">
+                        <input type="email" class="contact-input email"  placeholder="Email" >
+                    </div>
+                    <div class="contact-input">
+                        <input type="tel" class="contact-input Phone" placeholder="Phone">
+                    </div>
+                    <div class="contact-textarea">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                </form>
+                <div class="contact-links">
+                    <div class="contact-contact">
+                        <div class="contact-location fas fa-map-marker-alt"><span> 5th London Boulevard, U.K.</span></div>
+                        <div class="contact-tel fas fa-phone">
+                            <a href="tel:12312312432" class="contact-tel-link">+40 729 131 637/+40 726 458 782</a>
+                        </div>
+                        <div class="contact-mail far fa-envelope">
+                            <a href="office@mindblister.com">office@mindblister.com</a>
+                        </div>
+                    </div>
+                    <button class="contact-btn">SEND MESSAGE</button>
+                </div>
+        </div>
+    </section>
+    <section>
+        <div class="map">
+            <div class="title-map">Locate on map <span class="fas fa-angle-down"></span> </div>
+            <iframe class="map-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.839071684585!2d14.441116515332899!3d40.875405735539665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133bafb98245d643%3A0x28b132111f33221e!2sHungry%20people!5e0!3m2!1sru!2sru!4v1606311927766!5m2!1sru!2sru" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/115fad3326.js" crossorigin="anonymous"></script>
+    <script src="js/jQuery.js" ></script> 
+    <script src="js/slick-1.8.1/slick-1.8.1/slick/slick.min.js" ></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
