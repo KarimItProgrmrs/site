@@ -609,7 +609,6 @@ ul{
     margin-right: 10px;
 }
 .contact-input.phone{
-    flex:0 0 px;
     margin-right: 0px;
 }
 .contact-input input{
@@ -863,7 +862,7 @@ iframe{
         margin-bottom:0;
     }
     .slider-content{
-        flex:0 0 200;
+        flex:0 0 200px;
     }
     .left-img.slider{
         flex:0 0 250px;
